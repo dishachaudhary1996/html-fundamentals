@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Tags Example</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      header,
+      nav,
+      section,
+      footer {
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 1px solid #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Basic HTML Tags -->
+    <header>
+      <h1>Main Header (h1)</h1>
+      <p>This is a paragraph (p) inside the header.</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+      <ul>
+        <li><a href="#section1">Section 1</a></li>
+        <li><a href="#section2">Section 2</a></li>
+        <li><a href="#section3">Section 3</a></li>
+      </ul>
+    </nav>
+
+    <!-- Section 1: Text Formatting -->
+    <section id="section1">
+      <h2>Text Formatting</h2>
+      <p><strong>Bold text (strong)</strong></p>
+      <p><em>Italic text (em)</em></p>
+      <p><u>Underlined text (u)</u></p>
+      <p><mark>Highlighted text (mark)</mark></p>
+      <p><small>Small text (small)</small></p>
+      <p><del>Deleted text (del)</del> <ins>Inserted text (ins)</ins></p>
+    </section>
+
+    <!-- Section 2: Lists and Tables -->
+    <section id="section2">
+      <h2>Lists and Tables</h2>
+      <!-- Ordered List -->
+      <h3>Ordered List</h3>
+      <ol>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+      </ol>
+
+      <!-- Unordered List -->
+      <h3>Unordered List</h3>
+      <ul>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+      </ul>
+
+      <!-- Table -->
+      <h3>Table</h3>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+            <th>Header 3</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Data 1</td>
+            <td>Data 2</td>
+            <td>Data 3</td>
+          </tr>
+          <tr>
+            <td>Data 4</td>
+            <td>Data 5</td>
+            <td>Data 6</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Section 3: Forms and Media -->
+    <section id="section3">
+      <h2>Forms and Media</h2>
+      <!-- Forms -->
+      <form action="#">
+        <input type="text" name="fname" placeholder="Enter your first name" />
+        <br />
+        <input type="text" name="lname" placeholder="Enter your last name" />
+        <br />
+        <textarea
+          name="Address field"
+          id="address"
+          placeholder="Enter Your address here"
+        ></textarea
+        ><br />
+
+        <input type="radio" value="Male" name="gender" /> Male
+        <input type="radio" value="Female" name="gender" /> Female <br />
+        <input type="checkbox" name="car" id="car" /> Car
+        <input type="checkbox" name="bike" id="bike" /> bike <br />
+        <input type="submit" value="Submit" />
+      </form>
+
+      <!-- Media -->
+
+      <h3>Images and Videos</h3>
+      <p>Image:</p>
+      <img src="https://picsum.photos/150" alt="Placeholder Image" />
+      <p>Video:</p>
+      <video width="320" height="240" controls>
+        <source src="SampleVideo_1280x720_1mb.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Your Name</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+      console.log("This is a message from JavaScript.");
+    </script>
+  </body>
+</html>
